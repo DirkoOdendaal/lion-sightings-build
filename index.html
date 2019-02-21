@@ -61,13 +61,28 @@
   <link href="assets/splash/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 
 
-<link rel="stylesheet" href="styles.a3dc16817fc8c66d891a.css"></head>
+<link rel="stylesheet" href="styles.8ad1da619861b2d12e94.css"></head>
 
-<body>
+<body ontouchstart="">
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script type="text/javascript" src="runtime.dd98e08f348e92042c78.js"></script><script type="text/javascript" src="polyfills.91bdedd51f206ad93e2f.js"></script><script type="text/javascript" src="main.4fba72a870f03615eb0a.js"></script></body>
-<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script type="text/javascript" src="runtime.78bbc253b7f658b6ee14.js"></script><script type="text/javascript" src="polyfills.91bdedd51f206ad93e2f.js"></script><script type="text/javascript" src="main.75a64463aeade274f222.js"></script></body>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-storage.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAOgYSvhHZf2IyjqianTsEyoXGZVGfPQxM",
+    authDomain: "lion-sightings.firebaseapp.com",
+    databaseURL: "https://lion-sightings.firebaseio.com",
+    projectId: "lion-sightings",
+    storageBucket: "lion-sightings.appspot.com",
+    messagingSenderId: "113147914649"
+  };
+  firebase.initializeApp(config);
+</script>
 <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('ngsw-worker.js');

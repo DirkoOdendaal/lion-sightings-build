@@ -480,13 +480,13 @@ MIT
 @ionic-native/action-sheet
 MIT
 
+@ionic-native/diagnostic
+MIT
+
 @angular/router
 MIT
 
 @angular/forms
-MIT
-
-@angular/http
 MIT
 
 @ionic-native/splash-screen
@@ -520,11 +520,6 @@ MIT
 @angular/fire
 MIT
 
-@angular/fire/firestore
-MIT
-
-firebase/firestore
-
 @angular/fire/storage
 MIT
 
@@ -532,6 +527,11 @@ MIT
 Apache-2.0
 
 firebase/storage
+
+@angular/fire/firestore
+MIT
+
+firebase/firestore
 
 @angular/fire/auth
 MIT
@@ -743,6 +743,9 @@ Apache-2.0
 
 
 firebase/auth
+
+@angular/http
+MIT
 
 zone.js
 MIT
